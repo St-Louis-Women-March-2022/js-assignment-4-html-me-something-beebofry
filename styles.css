@@ -1,1 +1,74 @@
-/* Write your CSS here! */
+
+body {
+    background-color: rgb(236, 244, 149);
+    margin: 8px;
+    display: block;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(221, 205, 82);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 9px solid;
+    border-color: black;
+}
+
+#beeboName {
+    font-family: cursive;
+    font-size: larger;
+}
+
+#fryName {
+    font-family: monospace;
+    font-size: larger;
+}
+
+.mainText {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+table {
+    background-color: rgb(89, 156, 148);
+    padding-left: 125px;
+    padding-right: 125px;
+    border: 15px solid;
+    border-color: black;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#mainHeading {
+    color: red;
+    font-family: fantasy;
+    text-align: center;
+    font-size: medium;
+}
+
+.funParagraph {
+    font-size: small;
+    color: green;
+    text-align: center;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.funLinks {
+    font-size: small;
+    color:blue;
+    font-family: Arial;
+    padding-left: 250px;
+    padding-right: 150px;
+}
+
+footer {
+    text-align: right;
+    font-family: Arial;
+}
+.fill {
+    object-fit: fill;
+  }
