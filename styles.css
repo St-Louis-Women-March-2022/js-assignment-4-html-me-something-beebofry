@@ -69,6 +69,9 @@ footer {
     text-align: right;
     font-family: Arial;
 }
-.fill {
-    object-fit: fill;
-  }
+
+article {
+    border: 9px solid;
+    border-color: black;
+    background-color: rgb(221, 205, 82);
+}
