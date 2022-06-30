@@ -16,12 +16,12 @@ header {
 
 #beeboName {
     font-family: cursive;
-    font-size: larger;
+    font-size: xx-large; 
 }
 
 #fryName {
     font-family: monospace;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 .mainText {
@@ -42,27 +42,25 @@ td {
     padding-right: 15px;
 }
 
+
 #mainHeading {
     color: red;
-    font-family: fantasy;
+    font-family: monospace;
     text-align: center;
-    font-size: medium;
+    font-size: large;
 }
 
 .funParagraph {
     font-size: small;
     color: green;
     text-align: center;
-    padding-left: 125px;
-    padding-right: 125px;
+    font-family: Arial;
 }
 
 .funLinks {
     font-size: small;
     color:blue;
     font-family: Arial;
-    padding-left: 250px;
-    padding-right: 150px;
 }
 
 footer {
@@ -71,7 +69,9 @@ footer {
 }
 
 article {
-    border: 9px solid;
+    border: 9px dashed;
     border-color: black;
     background-color: rgb(221, 205, 82);
+    padding-left: 200px;
+    padding-right: 200px;
 }
