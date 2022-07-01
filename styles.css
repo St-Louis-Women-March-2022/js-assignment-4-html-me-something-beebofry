@@ -1,1 +1,92 @@
-/* Write your CSS here! */
+
+body {
+    background-color: rgb(213, 176, 90);
+    margin: 8px;
+    display: block;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(221, 185, 84);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 9px solid;
+    border-color: black;
+    opacity: 87%;
+}
+
+#beeboName {
+    font-family: "Brush Script MT";
+    font-size: 40px; 
+    text-shadow: 6px 6px 6px rgb(68, 46, 46);
+}
+
+#fryName {
+    font-family: monospace;
+    font-size: 40px;
+    text-shadow: 6px 6px 6px rgb(68, 46, 46);
+}
+
+.mainText {
+    text-align: left;
+    font-family: Helvetica;
+}
+
+table {
+    background-color: rgb(72, 143, 135);
+    opacity: 90%;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 25px solid;
+    border-style: double;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td {
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#mainHeading {
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.funParagraph {
+    color: green;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.funLinks {
+    font-size: 15px;
+    color:blue;
+    font-family: Arial;
+}
+
+footer {
+    text-align: right;
+    font-family: Arial;
+}
+
+article {
+    max-width: 350px;
+    border: 9px dashed;
+    border-color: black;
+    background-color: rgb(221, 185, 84);
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 85%;
+}
